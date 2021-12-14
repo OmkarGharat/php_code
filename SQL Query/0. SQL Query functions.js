@@ -22,5 +22,15 @@
 
 // Returns a string with the error description. If no error occurred , then it returns "" (NULL)
 
+// * खालच्या functions ची माहिती लिहा 
+
+// var_dump ==> php function
+
+// mysqli_connect_error
+
+// mysqli_num_rows
+
+// mysqli_fetch_assoc
+
 
 
