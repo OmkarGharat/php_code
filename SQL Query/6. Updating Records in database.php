@@ -1,8 +1,11 @@
-<!-- WE will update records using WHERE clause. -->
 
-<!-- It is used to extract only those records that fulfill a specified condition. -->
+<?php
+//    * WE will update records using WHERE clause.
 
-<!--  Note: The WHERE clause is used in SELECT , UPDATE, DELETE, and many more statements. -->
+//   ! It is used to extract only those records that fulfill a specified condition.
+   
+    // ^ Note: The WHERE clause is used in SELECT , UPDATE, DELETE, and many more statements. 
+?>
 
 <hr>
 <h1>Updating Records in Database</h1>
