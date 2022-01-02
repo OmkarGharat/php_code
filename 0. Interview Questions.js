@@ -25,52 +25,71 @@
 
 // Ans : https://youtu.be/89CsAKoH6m8
 
-// * 6. create a random number 
+// // * 6. create a random number 
 
-// https://youtu.be/J45IjjGkKG4
+// // https://youtu.be/J45IjjGkKG4
 
-// rand() // it gives random number till 2 raised to power 32
+// // rand() // it gives random number till 2 raised to power 32
 
-// rand(min_number , max_number) // both min_number and max_number are inclusive
+// // rand(min_number , max_number) // both min_number and max_number are inclusive
 
-// * 7. How to find the length of words or sentences in PHP ?
+// // * 7. How to find the length of words or sentences in PHP ?
 
-// Ans : https://youtu.be/r-YZkX5mFOI strlen() 
+// // Ans : https://youtu.be/r-YZkX5mFOI strlen() 
 
-// at 5:33
+// // at 5:33
 
-// * 8. How to count the number of words in a string in PHP ? 
+// // * 8. How to count the number of words in a string in PHP ? 
 
-// Ans : https://youtu.be/H-vvpEj2TSw at 5:17
+// // Ans : https://youtu.be/H-vvpEj2TSw at 5:17
 
-// * 9. How to Replace Characters/Words in a String in PHP ? 
+// // 9. How to Replace Characters/Words in a String in PHP ? 
 
-// Ans : https://youtu.be/BQDGK95LH-Q 3:00   5:00   7:28 
+// //Ans : https://youtu.be/BQDGK95LH-Q 3:00   5:00   7:28 
 
-Note : str_replace(search, replacement , subject)  // * case sensitive
+// //Note : str_replace(search, replacement , subject)  // * case sensitive
 
-// search ==> the work which u want to search 
+// //search ==> the work which u want to search 
 
-// replacement ==> the work which with want to replace 
+// //replacement ==> the work which with want to replace 
 
-// subject ==> the string in which search word is present
+// //subject ==> the string in which search word is present
 
-str_ireplace(search, replacement, subject) // * case insensitive
+// // str_ireplace(search, replacement, subject) // * case insensitive
 
-// * 10. PHP Challenge #3: Code FIZZBUZZ Program in PHP
+// // * 10. PHP Challenge #3: Code FIZZBUZZ Program in PHP
 
-// Ans : https://youtu.be/Zcbhhj3m5sY       12:53
+// // Ans : https://youtu.be/Zcbhhj3m5sY       12:53
 
-// * 11. PHP Challenge #4: HEADS, I WIN! TAILS YOU WIN!
+// // * 11. PHP Challenge #4: HEADS, I WIN! TAILS YOU WIN!
 
-// https://youtu.be/0P3nKLmrM-0         16:33   16:38
+// // https://youtu.be/0P3nKLmrM-0         16:33   16:38
 
 // * 12. temperature conversion : video no. 40
 
 // video no. 40
 
+// // * 13. PHP Function Default Arguments | Function Default Parameters in PHP
 
+// // https://youtu.be/NhjraytcQ4M
 
+// // *14. PHP Arrays in Hindi | Types of Arrays in PHP
 
+// //. https://youtu.be/xDD3UgXDTcE         1:55 
 
+// // * 15. How to Sort & Reverse Data in an Array in PHP
+
+// // https://youtu.be/rAabTVjLENI     3:41
+
+// // * 16. PHP Array Push Pop Shift UnShift Functions
+
+// // https://youtu.be/wgz7bDXL9pc     1:16    
+
+// // * 17. PHP Implode and Explode Function
+
+// // https://youtu.be/Z6kFMTFep5Q
+
+// // * 18. PHP University Question #1: PHP Script to combine two Arrays then remove duplicates from an Array
+
+//  // https://youtu.be/7p0F8R1ge9c
 

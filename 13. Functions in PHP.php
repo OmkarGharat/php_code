@@ -20,3 +20,21 @@
     sum();
     
 ?>
+
+<?php
+    
+
+    // * Default Argument
+
+    function mult($a , $b = 5){ // ^ default value
+
+        $result = $a * $b;
+        return $result;
+        
+    }
+
+    mult(4 , 5); // 4 * 5 = 20 , returns 20 
+
+    mult(8); // 8 * 5 = 40 , returns 40 , because we had already set default value of $b = 5 . 
+
+?>
