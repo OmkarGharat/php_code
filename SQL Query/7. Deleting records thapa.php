@@ -134,9 +134,6 @@ if ($connection) {
 
                 ?>
 
-                <script>
-
-                </script>
             </tbody>
         </table>
     </div>
