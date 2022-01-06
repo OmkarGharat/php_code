@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Snippet - GoSNippets</title>
+    <link href="" rel="stylesheet" />
+    <link href="" rel="stylesheet" />
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body,
+        html {
+            background-color: #ebecf0;
+        }
+
+        body,
+        p,
+        input,
+        select,
+        textarea,
+        button {
+            font-family: "Montserrat", sans-serif;
+            letter-spacing: -0.2px;
+            font-size: 16px;
+        }
+
+        div,
+        p {
+            color: #6e717b;
+            text-shadow: 1px 1px 1px #fff;
+        }
+
+        form {
+            /* padding: 16px;
+            width: 320px;
+            margin: 0 auto; */
+            width: 30%;
+            margin: 2rem auto 0 auto;
+            padding: 1.5rem;
+            box-shadow: 0 0 8px rgb(0 0 0 / 30%);
+
+        }
+
+        .head {
+            padding: 32px 0;
+            text-align: center;
+        }
+
+        button,
+        input {
+            border: 0;
+            outline: 0;
+            font-size: 16px;
+            border-radius: 100px;
+            padding: 16px;
+            background-color: #ebecf0;
+            text-shadow: 1px 1px 0 #fff;
+        }
+
+        label {
+            display: block;
+            /* margin-bottom: 24px; */
+            width: 100%;
+            margin-left: 10px;
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+
+        input {
+            margin-right: 8px;
+            box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+            width: 100%;
+            box-sizing: border-box;
+            transition: all 0.2s ease-in-out;
+            appearance: none;
+            -webkit-appearance: none;
+        }
+
+        input:focus {
+            box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+        }
+
+        button {
+            color: #61677c;
+            font-weight: bold;
+            box-shadow:  -5px -5px 20px #fff, 5px 5px 20px #babecc;
+            box-shadow: -2px -2px 5px #fff, 0px 1px 5px #333747;
+            /* box-shadow: 2px 2px 5px #babecc, inset -5px -5px 10px #fff; */
+            transition: all 0.2s ease-in-out;
+            cursor: pointer;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        button:hover {
+            box-shadow: -2px -2px 5px #fff, 2px 2px 5px #333747;
+        }
+
+        button:active {
+            box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+        }
+
+        .green {
+            display: block;
+            width: 100%;
+            color: #3423d3;
+            background-color: rgb(238, 238, 238);
+        }
+
+        .input-group {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        .input-group label {
+            margin: 0;
+            flex: 1;
+        }
+
+        .input_field {
+            margin-bottom: 1.8rem;
+        }
+    </style>
+</head>
+
+<body oncontextmenu="return false" class="snippet-body">
+    <form action="" method="post">
+        <div class="head">
+            <h1>Sign in</h1>
+        </div>
+
+        <div class="input_field">
+            <label for="name"> Name : </label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required />
+        </div>
+        <div class="input_field">
+            <label for="email"> Email ID : </label>
+            <input type="email" id="email" name="email" placeholder="Email Address" required />
+        </div>
+        <div class="input_field">
+            <label for="password"> Password : </label>
+            <input type="password" id="password" name="password" placeholder="password" required />
+        </div>
+        <button class="green" type="button">Sign In</button>
+    </form>
+</body>
+
+</html>

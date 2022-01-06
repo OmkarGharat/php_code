@@ -203,3 +203,5 @@ $store_password = password_hash($password, PASSWORD_BCRYPT);
 // ! crypt() and password_hash() are both compatible with each other. We can say that password_hash() method is a much more user-friendly wrapper of the crypt() method itself.
 
 // ?  _________________________________________________________________________________________________________________________
+
+// ^ NOTE : We must use     action="<?php echo htmlentities($_SERVER['PHP_SELF']);   ?>"    inside <form> tag , to avoid PHP_SELF exploits

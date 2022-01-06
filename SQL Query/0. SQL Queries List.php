@@ -33,9 +33,13 @@ $table_data = "INSERT INTO `students` (`Sr no.`, `Student Name`, `Roll Number`) 
 
 $select_data = "SELECT * FROM `table_name`";
 
+$select_data = "SELECT * FROM `table_name` WHERE `column1` = '$value1' " ;
+
 // eg. 
 
 $select_query = "SELECT * FROM `form_details` ";
+
+$select_query = "SELECT * FROM `signup_form` WHERE `email` = '$Email' " ;
 
 // ^ table "form_details"  मधला सर्व data select करा 
 
