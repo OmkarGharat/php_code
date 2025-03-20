@@ -6,10 +6,10 @@ Welcome to my **PHP Code Repository**! This collection showcases my journey and 
 
 This repository includes:
 
-- **Interview Questions and Answers/** – Common PHP interview questions with detailed explanations.
-- **SQL Query/** – Essential SQL queries for database interactions.
-- **php Notes/** – Quick reference notes on PHP concepts and best practices.
-- **projects/** – Real-world PHP applications demonstrating practical implementations.
+- **Interview Questions and Answers** – Common PHP interview questions with detailed explanations.
+- **SQL Query** – Essential SQL queries for database interactions.
+- **php Notes** – Quick reference notes on PHP concepts and best practices.
+- **projects** – Real-world PHP applications demonstrating practical implementations.
 - **Core PHP Scripts** – Various PHP programs covering loops, functions, arrays, and form handling.
 
 ## How to Use
